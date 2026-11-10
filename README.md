@@ -57,6 +57,12 @@ python "${CLAUDE_PLUGIN_ROOT}/scripts/learning_repo.py" status --repo c --tests
 python "${CLAUDE_PLUGIN_ROOT}/scripts/learning_repo.py" tests --repo python --filter 261108
 ```
 
+仓库更新推上去之后，顺手同步个人主页的进度区（只改两个标记之间的内容，没变化就什么都不做）：
+
+```bash
+python "${CLAUDE_PLUGIN_ROOT}/scripts/update_profile.py" --repo-dir "D:\02ai_practice\ss66725" --push
+```
+
 仓库路径写在脚本顶部的 `DEFAULT_REPOS`：
 
 | id | 路径 | GitHub |

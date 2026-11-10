@@ -18,7 +18,7 @@ description: 整理学习代码仓库（C、Python、Arduino）。按日期归�
 | C 语言 | `D:\01_代码\01c` | https://github.com/ss66725/C |
 | Python | `D:\01_代码\01py` | https://github.com/ss66725/Python |
 | Arduino | `D:\01_代码\01arduino\coding` | https://github.com/ss66725/Arduino |
-| 个人主页 | — | https://github.com/ss66725/ss66725 |
+| 个人主页 | `D:\02ai_practice\ss66725` | https://github.com/ss66725/ss66725 |
 
 - Arduino 的 `D:\01_代码\01arduino\libraries` 和 CH340 驱动不属于仓库，不上传，也不删除。
 - 原 `D:\summer_practice` 已并入 Python 仓库（最后提交 `a6d7153`），原目录隔离在
@@ -59,6 +59,16 @@ python "${CLAUDE_PLUGIN_ROOT}/scripts/learning_repo.py" status --json
 ```
 
 `status` 和 `tests` 都是只读的，不改文件、不提交。仓库路径写在脚本顶部的 `DEFAULT_REPOS` 里，也可以用 `--config` 传一个 JSON 覆盖。测试规则和 `scripts/run_tests.py` 完全一致。
+
+## 个人主页
+
+仓库有更新并推送之后，同步一次个人主页的进度区。脚本只改 README 里两个标记之间的内容，标记以外的文字不动：
+
+```bash
+python "${CLAUDE_PLUGIN_ROOT}/scripts/update_profile.py" --repo-dir "D:\02ai_practice\ss66725" --push
+```
+
+内容是每个仓库的最近更新日期、文件夹数、程序数、可自动测试数。没有变化时脚本什么都不做，所以可以每次都跑。
 
 ## 常见问题
 
