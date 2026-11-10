@@ -28,6 +28,7 @@ import re
 import subprocess
 import sys
 import tempfile
+from datetime import datetime
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -646,7 +647,7 @@ def main() -> None:
 
     if args.command == "status":
         selected = pick_repository(repos, args.repo)
-        report = {"scannedAt": __import__("datetime").datetime.now().isoformat(timespec="seconds")}
+        report = {"scannedAt": datetime.now().isoformat(timespec="seconds")}
         entries = []
         for repo in selected:
             scan = scan_repository(repo)
