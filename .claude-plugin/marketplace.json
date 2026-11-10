@@ -1,0 +1,31 @@
+{
+  "name": "claude_plugs",
+  "owner": {
+    "name": "ss66725",
+    "url": "https://github.com/ss66725"
+  },
+  "metadata": {
+    "description": "ss66725 自用的 Claude Code 插件集：学习仓库整理、Office 归档、幸福课日记。",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "learning-repo-organizer",
+      "source": "./plugins/learning-repo-organizer",
+      "description": "整理 C / Python / Arduino 学习仓库：按日期归档、写 README、补期望输出、查隐私、提交推送。附带只读盘点与测试脚本。",
+      "version": "1.0.0"
+    },
+    {
+      "name": "office-archive",
+      "source": "./plugins/office-archive",
+      "description": "两步式 Office 文件归档：先出方案，确认后执行，校验 SHA256 并刷新索引。",
+      "version": "1.0.0"
+    },
+    {
+      "name": "gratitude-journal",
+      "source": "./plugins/gratitude-journal",
+      "description": "幸福课 · 三件好事：每天一份 Markdown，记三件开心的事，并看连续天数。",
+      "version": "1.0.0"
+    }
+  ]
+}

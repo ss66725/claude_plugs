@@ -1,0 +1,13 @@
+{
+  "name": "learning-repo-organizer",
+  "version": "1.0.0",
+  "description": "整理 C / Python / Arduino 学习仓库：按日期归档、写 README、补期望输出、查隐私、提交推送。附带只读盘点与测试脚本。",
+  "author": {
+    "name": "ss66725",
+    "url": "https://github.com/ss66725"
+  },
+  "homepage": "https://github.com/ss66725/claude_plugs",
+  "repository": "https://github.com/ss66725/claude_plugs",
+  "license": "MIT",
+  "keywords": ["learning", "repo", "c", "python", "arduino", "tests"]
+}

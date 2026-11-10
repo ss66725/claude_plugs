@@ -1,0 +1,13 @@
+{
+  "name": "office-archive",
+  "version": "1.0.0",
+  "description": "两步式 Office 文件归档：先只读扫描出方案，用户确认后再复制或移动，校验 SHA256，并刷新索引与还原脚本。",
+  "author": {
+    "name": "ss66725",
+    "url": "https://github.com/ss66725"
+  },
+  "homepage": "https://github.com/ss66725/claude_plugs",
+  "repository": "https://github.com/ss66725/claude_plugs",
+  "license": "MIT",
+  "keywords": ["office", "archive", "files", "organize"]
+}

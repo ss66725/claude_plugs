@@ -1,0 +1,13 @@
+{
+  "name": "gratitude-journal",
+  "version": "1.0.0",
+  "description": "幸福课 · 三件好事：每天一份 Markdown，记三件让自己感到幸运或开心的事，并能查看连续天数。",
+  "author": {
+    "name": "ss66725",
+    "url": "https://github.com/ss66725"
+  },
+  "homepage": "https://github.com/ss66725/claude_plugs",
+  "repository": "https://github.com/ss66725/claude_plugs",
+  "license": "MIT",
+  "keywords": ["journal", "gratitude", "markdown", "habit"]
+}
